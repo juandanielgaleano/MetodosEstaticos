@@ -10,7 +10,23 @@ namespace MetodosEstaticos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola mundo");
+            int mayor;
+            string dato;
+
+            Sello.mensaje="nuevo Mensaje";
+            dato = Sello.imprimir();
+
+            
+
+            Console.WriteLine(dato);
+
+            Sello.Color = ConsoleColor.Red;
+
+            mayor=Comparadora.retornarMayor(10, 5);
+
+            Sello.imprimirColor;
+
+
         }
     }
 }
